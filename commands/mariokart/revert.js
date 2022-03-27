@@ -1,8 +1,8 @@
 const mkSchema = require("../../models/mkSchema");
 
 module.exports = {
-  name: "revertscore",
-  aliases: ["revert", "revertir", "return", "retornar", "volver"],
+  name: "revert",
+  aliases: ["revertscore", "revertir", "return", "retornar", "volver"],
   description: "Revierte a un score anterior",
   async execute(client, message, args, discord) {
     // Si se uso s.war

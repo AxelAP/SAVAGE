@@ -16,7 +16,7 @@ module.exports = async (client, discord, interaction) => {
         })
         .addFields(
           {
-            name: `startwar`,
+            name: `war`,
             value: `Inicia una war`,
           },
           {
@@ -28,7 +28,7 @@ module.exports = async (client, discord, interaction) => {
             value: `Muestra la puntacion total`,
           },
           {
-            name: `trackplayed`,
+            name: `played`,
             value: `Enseña las pistas jugadas`,
           }
         );
@@ -50,7 +50,7 @@ module.exports = async (client, discord, interaction) => {
             value: `Simula un puntaje`,
           },
           {
-            name: `revertscore`,
+            name: `revert`,
             value: `Revierte a un score anterior`,
           },
           {
@@ -58,7 +58,7 @@ module.exports = async (client, discord, interaction) => {
             value: `Devuelve una pista`,
           },
           {
-            name: `randomtrack`,
+            name: `random`,
             value: `Revela una pista aleatoria`,
           }
         );

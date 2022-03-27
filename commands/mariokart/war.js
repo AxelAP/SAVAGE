@@ -1,8 +1,8 @@
 const mkSchema = require("../../models/mkSchema");
 
 module.exports = {
-  name: "startwar",
-  aliases: ["start", "inicio", "war"],
+  name: "war",
+  aliases: ["start", "inicio", "startwar"],
   description: "Inicia una war",
   async execute(client, message, args, discord) {
     if (!args[0] || !args[1])

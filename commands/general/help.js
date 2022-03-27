@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { MessageEmbed, MessageButton } = require("discord.js");
 
 module.exports = {
   name: "help",
@@ -17,7 +17,7 @@ module.exports = {
       })
       .addFields(
         {
-          name: `startwar`,
+          name: `war`,
           value: `Inicia una war`,
         },
         {
@@ -29,20 +29,20 @@ module.exports = {
           value: `Muestra la puntacion total`,
         },
         {
-          name: `trackplayed`,
+          name: `played`,
           value: `Enseña las pistas jugadas`,
         }
       );
 
-    const btn1 = new discord.MessageButton()
+    const btn1 = new MessageButton()
       .setCustomId("help_prev")
       .setLabel("Atrás")
       .setStyle("PRIMARY");
-    const btn2 = new discord.MessageButton()
+    const btn2 = new MessageButton()
       .setCustomId("help_next")
       .setLabel("Siguiente")
       .setStyle("PRIMARY");
-    const btn3 = new discord.MessageButton()
+    const btn3 = new MessageButton()
       .setCustomId("help_del")
       .setLabel("Borrar")
       .setStyle("DANGER");

@@ -2,8 +2,8 @@ const { MessageEmbed } = require("discord.js");
 const fs = require("fs");
 
 module.exports = {
-  name: "randomtrack",
-  aliases: ["random", "aleatoria"],
+  name: "random",
+  aliases: ["randomtrack", "aleatoria"],
   description: "Revela una pista aleatoria",
   async execute(client, message, args, discord) {
     const tracks = fs

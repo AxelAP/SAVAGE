@@ -2,8 +2,8 @@ const { MessageEmbed } = require("discord.js");
 const mkSchema = require("../../models/mkSchema");
 
 module.exports = {
-  name: "trackplayed",
-  aliases: ["tracklist", "lista", "played"],
+  name: "played",
+  aliases: ["tracklist", "lista", "trackplayed"],
   description: "Enseña las pistas jugadas",
   async execute(client, message, args, discord) {
     // Si se uso s.war
