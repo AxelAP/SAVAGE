@@ -46,7 +46,7 @@ module.exports = async (client, discord, interaction) => {
         })
         .addFields(
           {
-            name: `checkrace`,
+            name: `check`,
             value: `Simula un puntaje`,
           },
           {

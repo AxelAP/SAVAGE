@@ -1,8 +1,8 @@
 const { MessageEmbed } = require("discord.js");
 
 module.exports = {
-  name: "checkrace",
-  aliases: ["check", "comprobar", "verificar"],
+  name: "check",
+  aliases: ["checkrace", "comprobar", "verificar"],
   description: "Simula un puntaje",
   async execute(client, message, args, discord) {
     // Si se pusieron todos las posiciones
