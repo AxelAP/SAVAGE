@@ -1,3 +1,8 @@
+require("dotenv").config();
+
 module.exports = async (client) => {
-  console.log(`${client.user.username} esta en linea`);
+  client.user.setPresence({
+    activities: [{ name: `${process.env.PREFIX}help` }],
+    status: "Conectado",
+  });
 };

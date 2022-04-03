@@ -6,22 +6,6 @@
     "dnd": "No molestar"
   },
 
-  "guildRegions": {
-    "us-central": ":flag_um: US-Central ",
-    "us-east": ":flag_um: US-East ",
-    "us-south": ":flag_um: US-South ",
-    "us-west": ":flag_um: US-West ",
-    "brazil": ":flag_br: Brazil",
-    "europe": ":flag_eu: Europa",
-    "hong-kong": ":flag_hk: Hong Kong",
-    "india": ":flag_in: India",
-    "japan": ":flag_jp: Japon",
-    "russia": ":flag_ru: Rusia",
-    "singapore": ":flag_sg: Singapore",
-    "south-africa": ":flag_br: South-Africa",
-    "Sydney": ":flag_za: Sydney"
-  },
-
   "trackAcr": {
     "mks": "MKS",
     "wp": "WP",
@@ -215,7 +199,7 @@
     "dwgm": "https://cdn.discordapp.com/attachments/509868451888627722/830102764289261639/dWGW.png",
     "drr": "https://cdn.discordapp.com/attachments/509868451888627722/830102757436293160/dRR.png",
     "diio": "https://cdn.discordapp.com/attachments/509868451888627722/830102744828346378/dIIO.png",
-    "dhc": "https://cdn.discordapp.com/attachments/509868451888627722/830102726624411698/dHC.png",
+    "dhc": "https://media.discordapp.net/attachments/509868451888627722/960325486251212881/dHC.png",
     "dbp": "https://cdn.discordapp.com/attachments/509868451888627722/830102715673083994/dBP.png",
     "dcl": "https://cdn.discordapp.com/attachments/509868451888627722/830102718730207292/dCL.png",
     "dww": "https://cdn.discordapp.com/attachments/509868451888627722/830102765908918282/dWW.png",

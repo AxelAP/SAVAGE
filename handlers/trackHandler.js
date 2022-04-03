@@ -6,13 +6,15 @@ module.exports = (client, discord) => {
     .readdirSync(`./img/`)
     .filter((file) => file.endsWith(".png"));
 
-  for (const file of tracks) {
+  for (let file of tracks) {
     if (file) {
-      client.tracks.set(file.slice(0, -4).toLowerCase(), {
-        acr: trackAcr[file.slice(0, -4).toLowerCase()],
-        es: trackES[file.slice(0, -4).toLowerCase()],
-        en: trackEN[file.slice(0, -4).toLowerCase()],
-        img: trackImg[file.slice(0, -4).toLowerCase()],
+      file = file.slice(0, -4);
+      file = file.toLowerCase();
+      client.tracks.set(file, {
+        acr: trackAcr[file],
+        es: trackES[file],
+        en: trackEN[file],
+        img: trackImg[file],
       });
     } else {
       console.log(`Error: ${file}`);
