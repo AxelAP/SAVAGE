@@ -17,6 +17,13 @@ module.exports = {
       message.channel.send({ embeds: [truck] });
     }
 
-    if (!track) return message.channel.send("Introduce una pista valida");
+    if (!track)
+      return message.channel.send({
+        content: "Introduce una pista valida",
+        files: [
+          "https://media.discordapp.net/attachments/509868451888627722/986122893312294922/All_Tracks.jpg",
+          "https://media.discordapp.net/attachments/509868451888627722/986122954410721342/All_Battle_Tracks.jpg?width=1440&height=552",
+        ],
+      });
   },
 };

@@ -32,7 +32,7 @@ module.exports = {
       for (var n = 0; n < 6; n++) {
         if (i !== n) {
           if (args[i] === args[n])
-            return message.channel.send("Ingrasa todas las posiciones");
+            return message.channel.send("Ingresa todas las posiciones");
         }
       }
     }

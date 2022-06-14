@@ -54,7 +54,15 @@
     "dnbc": "dNBC",
     "drir": "dRiR",
     "dsbs": "dSBS",
-    "dbb": "dBB"
+    "dbb": "dBB",
+    "bpp": "bPP",
+    "btc": "bTC",
+    "bcmo": "bCMo",
+    "bcma": "bCMa",
+    "btb": "bTB",
+    "bsr": "bSR",
+    "bsg": "bSG",
+    "bnh": "bNH"
   },
 
   "trackES": {
@@ -105,7 +113,15 @@
     "dnbc": "Ciudad Koopa",
     "drir": "Ruta Listón",
     "dsbs": "Metro Campana",
-    "dbb": "Big Blue"
+    "dbb": "Big Blue",
+    "bpp": "Bulevares de París",
+    "btc": "Circuito Toad",
+    "bcmo": "Monte Chocolate",
+    "bcma": "Centro Cocotero",
+    "btb": "Circuito Tokio",
+    "bsr": "Colinas Champiñon",
+    "bsg": "Jardín Celeste",
+    "bnh": "Mansión Ninja"
   },
 
   "trackEN": {
@@ -156,7 +172,15 @@
     "dnbc": "New Bowser City",
     "drir": "Ribbon Road",
     "dsbs": "Super Bell Subway",
-    "dbb": "Big Blue"
+    "dbb": "Big Blue",
+    "bpp": "Paris Promenade",
+    "btc": "Toad Circuit",
+    "bcmo": "Choco Mountain",
+    "bcma": "Coconut Mall",
+    "btb": "Tokyo Blur",
+    "bsr": "Shroom Ridge",
+    "bsg": "Sky Garden",
+    "bnh": "Ninja Hideaway"
   },
 
   "trackImg": {
@@ -207,6 +231,14 @@
     "dnbc": "https://cdn.discordapp.com/attachments/509868451888627722/830102754244296714/dNBC.png",
     "drir": "https://cdn.discordapp.com/attachments/509868451888627722/830102756983177276/dRiR.png",
     "dsbs": "https://cdn.discordapp.com/attachments/509868451888627722/830102762457006090/dSBS.png",
-    "dbb": "https://cdn.discordapp.com/attachments/509868451888627722/830102714859651092/dBB.png"
+    "dbb": "https://cdn.discordapp.com/attachments/509868451888627722/830102714859651092/dBB.png",
+    "bpp": "https://media.discordapp.net/attachments/509868451888627722/986126725194862682/bPP.png",
+    "btc": "https://media.discordapp.net/attachments/509868451888627722/986126743083560980/bTC.png",
+    "bcmo": "https://media.discordapp.net/attachments/509868451888627722/986126751149203496/bCMo.png",
+    "bcma": "https://media.discordapp.net/attachments/509868451888627722/986126766181613608/bCMa.png",
+    "btb": "https://media.discordapp.net/attachments/509868451888627722/986126787287339028/bTB.png",
+    "bsr": "https://media.discordapp.net/attachments/509868451888627722/986126797756309554/bSR.png",
+    "bsg": "https://media.discordapp.net/attachments/509868451888627722/986126806128152576/bSG.png",
+    "bnh": "https://media.discordapp.net/attachments/509868451888627722/986126814386749470/bNH.png"
   }
 }

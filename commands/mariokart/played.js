@@ -35,7 +35,7 @@ module.exports = {
       first12 += `${i + 1}`;
       first12 += ` | `;
       if (played[i] !== "") first12 += `${client.tracks.get(played[i]).es}`;
-      if (played[i] === "") first12 += `none`;
+      if (played[i] === "") first12 += ``;
       first12 += `\n`;
     }
     first12 += "```";
